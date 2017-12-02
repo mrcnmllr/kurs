@@ -1,0 +1,24 @@
+html, body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#p1::before {
+    content:"przed elementem ";
+    color:red;
+}
+
+#p2::after {
+    content:"po elemencie";
+    color: blue    
+}
+
+#p3::first-letter {
+    content:"pierwsza litera";
+    color: chartreuse
+}
+
+#p4::first-line {
+    content: "pierwszy wiersz";
+    color: red
+}
